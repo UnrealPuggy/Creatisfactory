@@ -12,7 +12,7 @@ import org.slf4j.LoggerFactory;
 
 public class Creatisfactory implements ModInitializer {
 	public static final String ID = "creatisfactory";
-	public static final String NAME = "Example Mod";
+	public static final String NAME = "Creatisfactory";
 	public static final Logger LOGGER = LoggerFactory.getLogger(NAME);
 
 	@Override
