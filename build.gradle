@@ -41,6 +41,9 @@ configurations.configureEach {
 }
 
 dependencies {
+	implementation 'org.jetbrains:annotations:24.0.0'
+	implementation 'org.jetbrains:annotations:24.0.0'
+
 	// Setup
 	minecraft("com.mojang:minecraft:${minecraft_version}")
 	mappings(loom.layered {
