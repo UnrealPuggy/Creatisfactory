@@ -15,7 +15,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.example.creatisfactory.Creatisfactory"
+      "com.creatisfactory.Creatisfactory"
     ]
   },
   "mixins": [
