@@ -43,9 +43,7 @@ public class balloonItem extends Item{
 				MobEffectInstance instance = new MobEffectInstance(effect,-1,2,false,false,false);
 
 				balloon.addEffect(instance);
-				balloon.tick = () {
-					//code
-				}
+
 				//instance.applyEffect(balloon);
 
 

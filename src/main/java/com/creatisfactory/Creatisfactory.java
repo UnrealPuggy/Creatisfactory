@@ -1,10 +1,12 @@
 package com.creatisfactory;
 
+import com.creatisfactory.block.ModBlocks;
 import com.creatisfactory.item.ModItems;
 import com.simibubi.create.Create;
 
 import com.simibubi.create.foundation.data.CreateRegistrate;
 
+import io.github.fabricators_of_create.porting_lib.entity.events.living.LivingEntityEvents;
 import io.github.fabricators_of_create.porting_lib.util.EnvExecutor;
 import net.fabricmc.api.ModInitializer;
 
@@ -30,8 +32,10 @@ public class Creatisfactory implements ModInitializer {
 				() -> () -> "{} is accessing Porting Lib from the server!"
 		), NAME);
 		ModItems.load();
+		ModBlocks.load();
 		REGISTRATE.register();
 	}
+
 
 	public static ResourceLocation id(String path) {
 		return new ResourceLocation(MOD_ID, path);
